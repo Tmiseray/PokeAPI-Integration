@@ -51,7 +51,9 @@ To get a local copy up and running, follow these steps:
 ## Usage
 - Upon opening the application, you will be greeted by the homepage.
 - Use the search feature to find Pokémon by name or ID.
-- Click on a Pokémon to view detailed information.
+
+## Additional Files
+- There are addititional files to add features to at a later date.
 
 ## Contributing
 
