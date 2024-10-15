@@ -13,8 +13,40 @@
     src: url('DecoturaICG.ttf');
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+background: #02009275;
+border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb {
+background: #ffff00;
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #433c0a;
+}
+
 body {
     font-family: 'Andy Pro';
+}
+
+.andy {
+    font-family: 'Andy Pro';
+}
+
+.deco {
+    font-family: 'Decotura ICG';
+    letter-spacing: 2px;
 }
 
 h1, h2 {
