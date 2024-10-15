@@ -1,0 +1,44 @@
+
+@font-face {
+    font-family: 'Andy Pro';
+    font-style: normal;
+    font-weight: normal;
+    src: url('AndyRegular.OTF');
+}
+
+@font-face {
+    font-family: 'Decotura ICG';
+    font-style: normal;
+    font-weight: normal;
+    src: url('DecoturaICG.ttf');
+}
+
+body {
+    font-family: 'Andy Pro';
+}
+
+h1, h2 {
+    font-family: 'Decotura ICG';
+    font-weight: bold;
+}
+
+.borderEffects {
+    box-shadow: 0 0 21px 13px rgba(0, 16, 155, 0.4);
+}
+
+#pokeLogo {
+    width: 99px;
+    height: 65px;
+}
+
+p {
+    font-weight: light;
+    font-size: larger;
+}
+
+
+@media (max-width: 991px) {
+    div.vr {
+        display: none;
+    }
+}
